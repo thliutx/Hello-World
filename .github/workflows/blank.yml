@@ -33,7 +33,8 @@ jobs:
         run: |
           mkdir c:\ti
           dir c:\
-          dir
+          cd c:\ti
+          git clone https://github.com/thliutx/TWMC_Build_Scripts.git . 
           date
           $psversiontable
           write-host "Hello World"
